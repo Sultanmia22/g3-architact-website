@@ -22,6 +22,10 @@
   background-color: rgba(255, 144, 14, 0.1);
 }
 
+.text-primary{
+  color: rgba(255, 144, 14, 1);
+}
+
 /* Dark 02 */
 .text-gray{
   color: #424242;
@@ -131,11 +135,20 @@ main > section{
 @media screen and (max-width:576px) {
 
   /* header section responsive */
-    .navbar,.nav-links{
+    .navbar,.nav-links,.teams{
       flex-direction: column;
     }  
-    .nav-item,.brand{
+    .nav-item,.brand {
       margin-bottom: 15px;
       text-align: center;
+    }
+
+    /* teams rersponsive */
+    .tems-img-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .our-feature{
+      text-align: center;
+      margin: 0 20px;
     }
 }
