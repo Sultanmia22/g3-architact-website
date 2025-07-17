@@ -193,7 +193,7 @@ main > section{
 }
 .feature-card {
   border-radius: 8px;
-  padding:30px;
+  padding:40px;
   margin-bottom: 20px;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
 }
@@ -203,6 +203,17 @@ main > section{
 }
 .feature-will-description {
   margin: 30px 0;
+}
+
+#experience-badge{
+  padding: 45px 42px;
+  margin-left: -80px;
+  margin-top: -150px;
+}
+
+#expreience-year{
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 
@@ -244,7 +255,21 @@ main > section{
       justify-items: center;
       gap: 30px;
     }
-   
+   /* features will section */
+  .features{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .feature-will-description{
+    text-align: center;
+  }
+   .features-architect img {
+    width: 100%;
+   }
+   #experience-badge{
+    margin-top: 20px;
+    margin-left:20px ;
+   }
 }
 
 /*! medium device relatives */
@@ -270,4 +295,21 @@ main > section{
       justify-items: center;
       gap: 30px;
     }
+
+    /* features will section */
+  .features{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .feature-will-description{
+    text-align: center;
+  }
+   .features-architect img {
+    width: 100%;
+   }
+   #experience-badge{
+    margin-top: 20px;
+    margin-left:20px ;
+   }
+    
 }
